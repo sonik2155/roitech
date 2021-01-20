@@ -1,0 +1,19 @@
+.about-us__card {
+    position: relative;
+    width: 320px;
+	align-content: flex-start;
+}
+
+
+@media screen and (max-width: 1500px){
+.about-us__card {
+	margin: 0 0 15px 0;
+	}
+}
+
+@media screen and (max-width: 1190px){
+.about-us__card {
+	margin: 0 0 50px 0;
+	display: block;
+	}
+}

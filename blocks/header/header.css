@@ -1,0 +1,19 @@
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+	z-index: 50;
+	display: block;
+}
+
+.header:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(33, 42, 73, 0.4);
+	z-index: 2;
+}

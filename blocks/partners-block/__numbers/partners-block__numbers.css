@@ -1,0 +1,10 @@
+.partners-block__numbers {
+    background-color: #FC7D34;
+    max-width: 992px;
+    display: flex;
+    border-radius: 14px;
+    margin: 0 auto;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: -80px;
+}

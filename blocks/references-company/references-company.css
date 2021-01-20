@@ -1,0 +1,32 @@
+.references-company {
+	position: relative;
+	height: 471px;
+	width: auto;
+	background: url(img/references/shutterstock_670775494.jpg) no-repeat center fixed;
+	background-size: 100% auto;
+	padding: 50px 200px;
+
+}
+
+@media screen and (max-width: 1500px){
+	.references-company{
+		padding: 50px 140px;
+	}
+}
+
+@media screen and (max-width: 970px){
+	.references-company{
+		height: 350px;
+	}
+}
+@media screen and (max-width: 770px){
+	.references-company{
+		padding: 50px 98px;
+	}
+}
+@media screen and(max-width: 485px){
+	.references-company{
+		padding: 50px 8px;
+		height: 270px;
+	}
+}

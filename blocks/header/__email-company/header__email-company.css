@@ -1,0 +1,38 @@
+.header__email-company {
+	position: absolute;
+    top: -65px;
+    display: flex;
+    text-decoration: none;
+    letter-spacing: 2px;
+    right: -68px;
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 37px;
+    color: #fff;
+    justify-content: space-between;
+    z-index: 3;
+}
+
+.header__email-company::before {
+	font-family: 'FontAwesome';
+	content: '\f0e0';
+	padding: 2px 8px 0 0;
+	text-decoration: none;
+	z-index: 3;
+}
+
+@media screen and (max-width: 1281px){
+	.header__email-company {
+		font-size: 11px;
+	}
+}
+@media screen and (max-width: 600px){
+	.header__email-company {
+		right: 0px;
+	}
+}
+@media screen and (max-width: 485px){
+	.header__email-company {
+		font-size: 8px;
+	}
+}

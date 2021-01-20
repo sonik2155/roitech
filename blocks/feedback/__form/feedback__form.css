@@ -1,0 +1,12 @@
+.feedback__form {
+    max-width: 800px;
+    width: 100%;
+}
+
+/*.feedback__form:invalid {
+	border: 1px solid red;
+}
+
+.feedback__form:valid {
+	border: 1px solid green;
+}

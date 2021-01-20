@@ -1,0 +1,26 @@
+.header__telephone-company {
+	top: -52px;
+	position: absolute;
+	display: block;
+	text-decoration: none;
+	right: -80px;
+	font-size: 17px;
+	color: #fff;
+	z-index: 3;
+}
+
+@media screen and (max-width: 1281px){
+	.header__telephone-company {
+		font-size: 15px;
+	}
+}
+@media screen and (max-width: 600px){
+	.header__telephone-company {
+		right: 0px;
+	}
+}
+@media screen and (max-width: 485px){
+	.header__telephone-company {
+		font-size: 11px;
+	}
+}

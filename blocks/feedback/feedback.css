@@ -1,0 +1,9 @@
+.feedback{
+    position: relative;
+	width: auto;
+	background: url("../../img/feedback form/Bacrground__Right.jpg") no-repeat center fixed;
+	max-height: 750px;
+	background-size: cover;
+    z-index: 2;
+    height: 750px;
+}

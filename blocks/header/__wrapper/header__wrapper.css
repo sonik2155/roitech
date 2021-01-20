@@ -1,0 +1,35 @@
+.header__wrapper {
+    margin: 0 auto;
+    max-width: 1410px;
+    padding: 0 15px;
+}
+
+@media (max-width: 1500px) {
+	.header__wrapper{
+		max-width: 1100px;
+	}
+}
+
+
+@media (max-width: 1190px) {
+	.header__wrapper{
+		max-width: 770px;
+	}
+}
+
+@media (max-width: 790px) {
+	.header__wrapper{
+		max-width: 485px;
+	}
+}
+
+@media (max-width: 485px) {
+	.header__wrapper{
+		max-width: 320px;
+	}
+}
+/*@media (max-width: 485px) {
+	.main-wrapper{
+		max-width: 320px;
+    }
+}

@@ -1,0 +1,14 @@
+.about-us {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 959px) {
+    .about-us {
+        justify-content: space-between;
+        margin-left: 50px;
+    }
+}

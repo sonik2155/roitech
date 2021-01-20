@@ -1,0 +1,28 @@
+.advantages-company__title {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	line-height: 30px;
+	padding: 0 0 32px 0
+}
+
+@media screen and (max-width: 1500px) {
+	.advantages-company__title{
+		font-size: 22px;
+		line-height: 26px;
+		height: 46px;
+	}
+}
+@media screen and (max-width: 970px) {
+	.advantages-company__title{
+    font-size: 15px;
+    line-height: 18px;
+    height: 28px;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	.advantages-company__title{
+    font-size: 11px;
+	}
+}

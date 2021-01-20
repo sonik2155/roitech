@@ -1,0 +1,9 @@
+.feedback__container {
+   display: flex;
+   flex-direction: column;
+   margin-top: 64px;
+   max-width: 616px;
+   width: 100%;
+   margin-bottom: 60px;
+}
+

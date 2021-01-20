@@ -1,0 +1,45 @@
+.references-company__word {
+	position: relative;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 207.9%;
+	letter-spacing: 2px;
+	color: rgb(252, 252, 252);
+	text-transform: uppercase;
+}
+
+@media (max-width: 970px){
+	.referenci__block{
+		font-size: 26px;
+	}
+}
+
+@media (max-width: 485px){
+	.references-company__word{
+		font-size: 19px;
+	}
+}
+
+.references-company__word::after {
+	position: absolute;
+	content: '';
+	width: 240px;
+	height: 5px;
+	top: 15px;
+	left: 20px;
+	background: #FC7D34;
+	margin: 35px 0 0 0;
+}
+
+@media (max-width: 970px){
+	.references-company__word::after{
+		width: 155px;
+	}
+}
+@media (max-width: 485px){
+	.references-company__word::after{
+		width: 100px;
+		top: 0px;
+	}
+}

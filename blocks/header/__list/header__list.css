@@ -1,0 +1,5 @@
+.header__list {
+	display: flex;
+	position: relative;
+	z-index: 2;
+}

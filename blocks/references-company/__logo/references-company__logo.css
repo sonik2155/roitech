@@ -1,0 +1,6 @@
+.references-company__logo {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: baseline;
+}

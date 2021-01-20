@@ -1,0 +1,17 @@
+.feedback__link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+  	font-weight: 300;
+	font-size: 14px;
+	line-height: 150%;
+	letter-spacing: 2px;
+}
+
+@media screen and (max-width: 770px){
+    .feedback__link {
+        padding: 10px;
+        font-size: 10px;
+    }  
+}
+

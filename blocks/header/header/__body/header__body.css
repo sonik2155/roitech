@@ -1,0 +1,7 @@
+.header__body {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	height: 65px;
+	align-items: center;
+}
